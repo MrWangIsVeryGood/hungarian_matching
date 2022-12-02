@@ -1,0 +1,10 @@
+/devel/
+/build/
+/bin/
+/.vscode/
+/cmake-build-debug/
+/backup/
+/tmp/
+/data/
+/log/
+/.idea/
