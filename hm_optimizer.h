@@ -257,8 +257,7 @@ template <typename T>
 HungarianOptimizer<T>::HungarianOptimizer() : HungarianOptimizer(1000) {}
 
 template <typename T>
-HungarianOptimizer<T>::HungarianOptimizer(const int max_optimization_size)
-    : max_optimization_size_(max_optimization_size) {
+HungarianOptimizer<T>::HungarianOptimizer(const int max_optimization_size) : max_optimization_size_(max_optimization_size) {
   costs_.Reserve(max_optimization_size, max_optimization_size);
   stars_in_col_.reserve(max_optimization_size);
   rows_covered_.reserve(max_optimization_size);
